@@ -1,0 +1,7 @@
+#можно вытащить ping -c 1 42.fr
+PING 42.fr (163.172.250.13): 56 data bytes
+64 bytes from 163.172.250.13: icmp_seq=0 ttl=53 time=48.771 ms
+
+--- 42.fr ping statistics ---
+1 packets transmitted, 1 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 48.771/48.771/48.771/0.000 ms
