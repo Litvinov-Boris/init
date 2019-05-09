@@ -1,1 +1,5 @@
- server IP address is stored in the file at /etc/resolv.conf
+#получить полный путь к файлу с IP-адресом DNS-сервера
+cat /var/run/resolv.conf
+
+#вывод
+#в файле /etc/resolve.conf лежит IP-адрес DNS-сервера, но с помощью ls -l /etc/resolve.conf мы узнаем что этот файл - символическая ссылка на /var/run/resolv.conf - файл, в котором действительно лежит IP

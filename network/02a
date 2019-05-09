@@ -1,0 +1,1 @@
+ifconfig -L| grep "broadcast"| awk '{print $6}'
