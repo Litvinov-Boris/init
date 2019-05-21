@@ -1,0 +1,2 @@
+etc/init.d/ssh status|grep "PID"|awk '{print $3}'
+#или просто cat /var/run/sshd.pid
