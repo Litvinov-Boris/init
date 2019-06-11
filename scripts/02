@@ -1,0 +1,2 @@
+user = "$1"
+userdel -f -r "$user"
